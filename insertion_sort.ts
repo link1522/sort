@@ -1,5 +1,5 @@
-const insertionSort = (input) => {
-  const output = []
+const insertionSort = (input: number[]) => {
+  const output: number[] = []
 
   for (let i = 0; i < input.length; i++) {
     if (i === 0) {
